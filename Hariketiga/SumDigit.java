@@ -1,15 +1,16 @@
 package Hariketiga;
 public class SumDigit {
     public static void main(String[] args) {
-        // Membuat array untuk menyimpan input
-        int[] angka = {1, 2, 3, 4,};
+        // Creating an array to store input
+        int[] numbers = {1, 2, 3, 4};
 
-        // Menghitung jumlah dari semua angka
-        int jumlah = 0;
-        for (int i: angka) {
-            jumlah +=i;
+        // Calculating the sum of all numbers
+        int sum = 0;
+        for (int number : numbers) {
+            sum += number;
         }
-        // Menampilkan hasil
-        System.out.println(jumlah);
+
+        // Displaying the result
+        System.out.println(sum);
     }
 }
