@@ -7,7 +7,7 @@ public class SimpleCalculator {
         System.out.print("Masukkan operasi: ");
         String input = scanner.nextLine().replaceAll("\\s+", "");
 
-        int a = input.charAt(0) - '0'; //ASII
+        int a = input.charAt(0) - '0';
         int b = input.charAt(2) - '0';
         char operator = input.charAt(1);
 
