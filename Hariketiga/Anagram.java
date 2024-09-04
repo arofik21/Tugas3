@@ -1,6 +1,6 @@
 package Hariketiga;
 
-public class CheckString {
+public class Anagram {
     public static void main(String[] args) {
         String kata1 = "listen";
         String kata2 = "silent";
