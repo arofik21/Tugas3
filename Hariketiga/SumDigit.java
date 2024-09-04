@@ -6,10 +6,9 @@ public class SumDigit {
 
         // Menghitung jumlah dari semua angka
         int jumlah = 0;
-        for (int i = 0; i < angka.length; i++) {
-            jumlah += angka[i];
+        for (int i: angka) {
+            jumlah +=i;
         }
-
         // Menampilkan hasil
         System.out.println(jumlah);
     }
